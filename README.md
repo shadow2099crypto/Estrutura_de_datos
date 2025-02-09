@@ -1,4 +1,5 @@
 Arreglo.py
+
 ventas = [[[] for _ in range(3)] for _ in range(12)]
 meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
          "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
@@ -78,8 +79,6 @@ while True:
     else:
         print("Opción no válida. Intenta de nuevo.")
 
-
-Arreglo de ventas (Python and Java)
 Este programa hecho en Python y Java con ligeras modificaciones simula el registro y manejo de ventas por departamento durante un año. Está compuesto por una matriz de ventas que tiene 12 filas (representando los meses del año) y 3 columnas (representando 3 departamentos: "Ropa", "Deportes" y "Juguetería"). Cada celda en la matriz almacena las ventas realizadas en ese mes y departamento específicos, y permite agregar, eliminar o consultar las ventas registradas. Dado que su objetivo de este código fue que el usuario proporcione la información de manera más ágil y crear la tabla más rápido en vez de escribirlo a mano haciendo que tarde más el desarrollo de este, y en esta ocasión es en base a un menú, siempre con el mismo objetivo de proporcionarlo como tabla.
  Métodos: 
 • Matriz de ventas: El programa define una matriz de 12 filas y 3 columnas con valores vacíos inicialmente.
